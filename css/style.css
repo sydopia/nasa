@@ -1,0 +1,337 @@
+/* ------------------------------------------
+  TYPOGRAPHY
+--------------------------------------------- */
+@import url("https://use.typekit.net/bzr5eub.css");
+@font-face{
+    font-family: roboto;
+    src: url(../fonts/roboto.ttf);}
+
+body {
+	height: 2600px;
+	margin: 0;}
+
+.container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(../images/astronaut.jpg) no-repeat center fixed;}
+
+.container2{
+    width: 100%;
+    height: 100%;}
+
+.container3{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(../images/earth2.png) no-repeat center fixed;}
+    
+/* ------------------------------------------
+  NAVIGATION
+--------------------------------------------- */
+nav{
+    z-index: 5;
+    position: absolute;}
+
+#main-nav-bar{
+  z-index: 9999;
+  width: 100%; 
+  position: fixed;
+  top: 0;
+  padding: 50px;    
+  margin:0 auto;}
+
+#main-nav-bar .nav-item {
+    display: inline-block;
+    padding: 0.5%;}
+
+#logo img{
+    height: 25px;}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+    font-family: "industry",sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;}
+
+.nav-item a:hover {
+    color: rgba(255, 255, 255, 0.5);}
+
+#link{
+    position: absolute;
+    left: 850;
+    float: right;}
+
+.searchbar{
+    position: absolute;
+    top: 50;
+    left: 500;
+    background: rgba(255, 255, 255, 0.15);
+    width: 200px;
+    height: 20px;
+    border-radius: 30px;}
+
+.searchform{
+    padding: 3px 8px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-family: "roboto",sans-serif;
+    font-size: 13px;}
+
+.searchbutton{
+    width: 28px;
+    float: right;
+    background: none;
+    border: none;
+    background-image: url(../images/searchicon.svg);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: 8px 3px;}
+
+.searchbutton:focus, .searchform:focus{
+    outline: 0;}
+
+/* ------------------------------------------
+  LANDING PAGE
+--------------------------------------------- */
+#apollo{
+    width: 398px;
+    position: absolute;
+    top: 150;
+    right: 0;
+    padding: 100px; }
+
+#apollo h1 {
+  margin-bottom: 19px;
+  color: #fff;
+  font-family: "industry",sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 50px;}
+
+#apollo p  {
+    padding-bottom: 19px;
+    color: #fff;
+    font-family: "roboto",sans-serif;
+    line-height: 19px;
+    font-size: 15px;}
+
+/* ------------------------------------------
+  TIMELINE
+--------------------------------------------- */
+#timeline {
+    clear: both;
+	width: 500px;
+	height: 300px;
+	text-align: left;
+	position: fixed;
+	margin-left: 50px;
+    top: 250;}
+
+#update {
+	top: 50%;
+	margin-top: -100px;
+	color: white;}
+
+#update h2{
+  padding-bottom: 9.5px;
+  text-decoration: none;
+  letter-spacing: 2;
+  color: rgba(255, 255, 255, 1);
+  font-family: "industry",sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  border-bottom: white 1px solid;}
+
+#update h1{
+  padding-top: 9.5px;
+  line-height: 75px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "industry",sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 50px;}
+
+#update a{
+  font-family: "industry",sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color .3s ease-in-out;
+  -webkit-transition: color .3s ease-in-out;
+  -moz-transition: color .3s ease-in-out;}
+
+#update a:hover{
+  color: rgba(255, 255, 255, 1);}
+
+#update p  {
+    padding-bottom: 19px;
+    color: #fff;
+    font-family: "roboto",sans-serif;
+    line-height: 19px;
+    font-size: 12px;}
+
+#one {
+ position: absolute;
+  top: 10;
+  left: 50;}
+
+ #seven, #eight, #nine, #ten, #eleven, #twelve, #thirteen, #fourteen, #fifteen, #sixteen, #seventeen {
+  position: absolute;
+  top: 10;
+  left: 50;
+    display: none;}
+
+/* ------------------------------------------
+  APOLLO 13 PAGE
+--------------------------------------------- */
+.left{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50%;}
+
+.right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;}
+
+.info{
+    overflow: hidden;
+    z-index: 1;
+    width: 398px;
+    position: relative;
+    top: 150;
+    left: 0;
+    padding: 100px; }
+
+.info p   {
+    padding-bottom: 19px;
+    color: #fff;
+    font-family: "roboto",sans-serif;
+    line-height: 19px;
+    font-size: 15px;}
+
+.info h1 {
+  margin-bottom: 19px;
+  color: #fff;
+  font-family: "industry",sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 50px;}
+
+/* ------------------------------------------
+  PANELS
+--------------------------------------------- */
+.earth{
+    background: url(../images/earth.png) no-repeat center fixed;}
+
+.rocket {
+    background: url(../images/rocket.png) no-repeat center fixed;}
+
+.crew {
+    background: url(../images/crew.png) no-repeat center fixed;}
+
+.launch {
+    background: url(../images/launch.png) no-repeat center fixed;}
+
+.problem {
+    background: url(../images/problem.png) no-repeat center fixed;}
+
+.solution {
+    background: url(../images/solution.png) no-repeat center fixed;}
+
+.options {
+    background: url(../images/options.png) no-repeat center fixed;}
+
+.return {
+    background: url(../images/rescue.png) no-repeat center fixed;}
+
+/* ------------------------------------------
+  IMAGES PAGE
+--------------------------------------------- */
+
+#imagegallery{
+    position: absolute;
+    top: 250;
+    margin: 50px;
+    height: 1000px;
+    z-index: 4;}
+
+#imagegallery h1 {
+  margin-bottom: 38px;
+  color: #fff;
+  font-family: "industry",sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 50px;}
+
+.gallery {
+    position: relative;
+    display: inline-block;}
+
+.gallery:hover .overlay {
+  opacity: 1;}
+
+#imagegallery img{
+    margin: 15px;
+    width: 255px;}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 15px;
+  height: 191px;
+  width: 255px;;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(21, 22, 25, 0.5);}
+
+.text a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "industry",sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);}
+
+
+#imagegallery button{
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    height: 50px;
+     transition: background-color .3s ease-in-out;
+  -webkit-transition: background-color .3s ease-in-out;
+  -moz-transition: background-color .3s ease-in-out;}
+
+#imagegallery button:hover{
+    background: rgba(255, 255, 255, 0.5);}
+
+#imagegallery a{
+    color: #fff;
+  text-decoration: none;
+  font-family: "industry",sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;}
